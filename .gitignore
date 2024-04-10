@@ -1,7 +1,5 @@
 .vscode
 
-To create a .gitignore file for a Java project in Visual Studio Code, you typically want to ignore compiled files, temporary files, and dependencies. Here's a basic .gitignore file tailored for a Java project in VS Code:
-
 plaintext
 Copy code
 # Compiled class files
