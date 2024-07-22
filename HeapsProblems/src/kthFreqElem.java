@@ -36,6 +36,7 @@ public class kthFreqElem {
             map.put(i, map.getOrDefault(i, 0) + 1);
         }
         
+        @SuppressWarnings("unchecked")
         List<Integer> bucket[] = new ArrayList[nums.length + 1];
         
         for(int key : map.keySet()){
